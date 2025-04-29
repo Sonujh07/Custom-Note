@@ -32,6 +32,7 @@ npm install
 npm run dev
 
 ****Why Decisions****
+
 localStorage + key naming:  Simple browser persistence without backend; key 'custom_notes' is scoped uniquely.
 
 Component design:  Separated AddNote and NotesList for SRP (Single Responsibility Principle).
